@@ -10,15 +10,12 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-#root {
-  /* Allow the React root to span the full viewport so hero and content
-     can be full-bleed on large screens (desktop/laptop). */
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-  text-align: left;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+a {
+  font-weight: 500;
+  color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
